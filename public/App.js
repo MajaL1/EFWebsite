@@ -10,10 +10,10 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: "/views/home.html",
             controller: "HomeCtrl"
         })
-       .state("work", {
-            url: "/work",
-            templateUrl: "/views/work.html",
-            controller: "WorkCtrl"
+       .state("about_me", {
+            url: "/about_me",
+            templateUrl: "/views/about_me.html",
+            controller: "AboutMeCtrl"
         })
        .state("other", {
             url: "/other",
